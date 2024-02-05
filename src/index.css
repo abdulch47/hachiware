@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Black.otf") format("opentype");
+  font-weight: 800; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Bold.otf") format("opentype");
+  font-weight: 700; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Semibold.otf") format("opentype");
+  font-weight: 600; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Medium.otf") format("opentype");
+  font-weight: 500; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Regular.otf") format("opentype");
+  font-weight: 400; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Light.otf") format("opentype");
+  font-weight: 300; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Extralight.otf") format("opentype");
+  font-weight: 200; /* Specify the font weight */
+}
+
+@font-face {
+  font-family: "Slussen";
+  src: url("./assets/fonts/slussen/Slussen-Thin.otf") format("opentype");
+  font-weight: 100; /* Specify the font weight */
+}
+
+body {
+  margin: 0;
+  font-family: "Slussen", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
